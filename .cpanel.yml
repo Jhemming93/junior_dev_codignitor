@@ -2,13 +2,13 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/hmhofmn2/public_html/junior_dev_codignitor/
-        - /junior_dev_codignitor -R application $DEPLOYPATH
-				- /junior_dev_codignitor -R assets $DEPLOYPATH
-				- /junior_dev_codignitor -R css $DEPLOYPATH
-				- /junior_dev_codignitor -R img $DEPLOYPATH
-				- /junior_dev_codignitor -R js $DEPLOYPATH
-				- /junior_dev_codignitor -R system $DEPLOYPATH
-				- /junior_dev_codignitor -R trumbowyg $DEPLOYPATH
-				- /junior_dev_codignitor -R uploads $DEPLOYPATH
-				- /junior_dev_codignitor .htaccess $DEPLOYPATH
-				- /junior_dev_codignitor index.php $DEPLOYPATH
+        - /bin/cp -R /repositories/junior_dev_codignitor/application $DEPLOYPATH
+				- /bin/cp -R /repositories/junior_dev_codignitor/assets $DEPLOYPATH
+				- /bin/cp -R /repositories/junior_dev_codignitor/css $DEPLOYPATH
+				- /bin/cp -R /repositories/junior_dev_codignitor/img $DEPLOYPATH
+				- /bin/cp -R /repositories/junior_dev_codignitor/js $DEPLOYPATH
+				- /bin/cp -R /repositories/junior_dev_codignitor/system $DEPLOYPATH
+				- /bin/cp -R /repositories/junior_dev_codignitor/trumbowyg $DEPLOYPATH
+				- /bin/cp -R /repositories/junior_dev_codignitor/uploads $DEPLOYPATH
+				- /bin/cp /repositories/junior_dev_codignitor/.htaccess $DEPLOYPATH
+				- /bin/cp /repositories/junior_dev_codignitor/index.php $DEPLOYPATH
