@@ -2,4 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/hmhofmn2/public_html/junior_dev_codignitor/
-        - /cp -R application $DEPLOYPATH
+        - cp -R application $DEPLOYPATH
