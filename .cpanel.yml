@@ -2,5 +2,13 @@
 deployment:
       tasks:
         - export DEPLOYPATH=../../public_html/junior_dev_codignitor/
-        - ls
         - cp -r application $DEPLOYPATH
+        - cp -r assets $DEPLOYPATH
+        - cp -r css $DEPLOYPATH
+        - cp -r img $DEPLOYPATH
+        - cp -r js $DEPLOYPATH
+        - cp -r system $DEPLOYPATH
+        - cp -r trumbowyg $DEPLOYPATH
+        - cp -r uploads $DEPLOYPATH
+        - cp .htaccess
+        - cp index.php
