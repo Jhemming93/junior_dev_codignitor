@@ -10,5 +10,5 @@ deployment:
         - cp -r system $DEPLOYPATH
         - cp -r trumbowyg $DEPLOYPATH
         - cp -r uploads $DEPLOYPATH
-        - cp .htaccess
-        - cp index.php
+        - cp .htaccess $DEPLOYPATH
+        - cp index.php $DEPLOYPATH
