@@ -9,6 +9,6 @@ deployment:
         - cp -r js $DEPLOYPATH
         - cp -r system $DEPLOYPATH
         - cp -r trumbowyg $DEPLOYPATH
-        - cp -r uploads $DEPLOYPATH
         - cp .htaccess $DEPLOYPATH
         - cp index.php $DEPLOYPATH
+        # need to change the upload paths and how things are aranged for stuff on site and stuff other people upload
